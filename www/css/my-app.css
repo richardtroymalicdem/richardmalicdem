@@ -1,0 +1,80 @@
+.contents{
+	overflow-y: scroll;
+	  width: 100%;
+  height: 100%;
+
+}
+.contents::-webkit-scrollbar { 
+  /* This is the magic bit */
+  display: none;
+}
+
+.item-title{
+	color: #ff2d80;
+}
+
+.navbar-inner{
+	background-color: #ff2d80;
+	color: white;
+	text-align: center;
+}
+
+body{
+	background-color: pink;
+}
+button{
+	color:pink;
+	font-size: 60px;
+	background-color: red;
+	border:none;
+}
+
+input{
+	font-size: 50px;
+}
+
+.text{
+	font-size: 50px;
+	font-family: 'arial';
+}
+
+ul li{
+	font-size: 30px;
+	color:red;
+}
+
+.imCustomClass{
+	text-decoration: underline;
+	color:yellow;
+}
+
+#audio{
+	display: none;
+}
+
+.btn-back{
+    border: 1px solid #f00;
+    padding: 5px 20px 5px 20px;
+}
+
+ul{
+	list-style: none !important;
+}
+
+ul li{
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    background: #f00;
+    color: #fff;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+ul li:hover{
+    background: blue;
+}
+
+
+ul li a{
+    color: #fff;
+}
